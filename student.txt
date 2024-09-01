@@ -1,0 +1,31 @@
+//student
+
+import java.util.Scanner;
+
+public class student {
+
+	public static void main( String[] args) {
+		System.out.println("kaveri");
+		
+		int a, b, c;
+		int num1=10;int num2=10;
+		int x=0,y=6,z=20;
+		//operators = +,-,/,*
+		x=y+z;
+		System.out.println("sum is"+x);
+		
+		//Scanner class --> java.util//
+		//classname objname = new classname () ;
+		
+		Scanner sc = new Scanner(System.in);
+		a=sc .nextIn();
+		b=sc .nextIn();
+		
+		s=a*b;
+		System.out.println(c);
+		
+	}
+}
+ 
+
+//
