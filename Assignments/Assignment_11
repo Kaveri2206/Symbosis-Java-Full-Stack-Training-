@@ -1,1 +1,80 @@
+//Swap Numbers
+//Swap numbers By Refrence
+import java.util.Scanner;   
+public class SwapNumberByrefrence {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num1 = 10;
+		int num2 = 20;
+		
+		System.out.println("The values before swapping are:number1 =" + num1 +" and number2 =" + num2);
+		
+		System.out.println("\nThe number before sweapping will be same in:");
+		System.out.println("Once the swapping is done, the value will be back origanll: num1 = "+ num1 +" num2 =" + num2);
+				
+	}
+	public static void  SwapNumberByrefrence(int num1, int num2) {
+		System.out.println("Before swapping in function locally, num1=" + num1 +" num2 =" + num2);
+		int temp = num1;
+		num1 = num2;
+		num2 = temp;
+		System.out.println("After swapping in function locally, num1 = "+ num1 +" num2 =" + num2);
+		
+		
+
+	}
+
+}
+// Swap Numbers By value
+import java.util.Scanner;
+public class SwapNumberByValue {
+    
+	public static void main(String[] args) {
+    	int a,b,c;
+    	Scanner sc = new Scanner(System.in);
+    	
+    	System.out.print("Enter the 1st number:");
+    	a = sc.nextInt();
+    	
+    	System.out.print("Enter the 2nd number:");
+    	b = sc.nextInt();
+    	
+    	System.out.print("Enter the 3rd number:");
+    	c = sc.nextInt();
+    	
+    	System.out.print("Before swapping number:" + a+" " +b);
+    	
+    	c=a;
+    	a=b;
+    	b=c;
+    	
+    	System.out.print("After swapping:"+a+" "+b);
+    	
+    	
+	}
+
+}
+  
+// Swap Numbers by Third Value
+import java.util.Scanner;   
+public class SwapNumbersByThirdValue {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int temp;
+		int a = 10;
+		int b = 20;
+		int c = 30;
+		
+		temp = a;
+		a = b;
+		b = c;
+		c = temp;
+		
+		System.out.println("a =" +a+ " and b = "+b+ " and c ="+c);
+	}
+
+}
+
 
